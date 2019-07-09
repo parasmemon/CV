@@ -1,0 +1,239 @@
+%-------------------------
+% Resume in Latex
+% Author : Amlaan Bhoi
+% Adapted from: Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\href{abhoi.github.io}{\huge Paras Qadir Memon}} \\ 
+  Fulbright PhD Student, Colorado State University, Fort Collins, CO \\
+  \small 1500 West Plum, 14H, Fort Collins, Colorado, USA \\
+  \href{mailto:memon@colostate.edu}{\color{blue}\underline{memon@colostate.edu}} $\vert$ 970-412-5890
+\end{center}
+
+
+
+%---------------SUMMARY---------------
+
+\shorterSection{Summary}
+  \resumeSubHeadingListStart
+  \small
+    \item{Assistant Professor with three years of teaching experience in academia.}
+    \vspace{-5pt}
+    \item{Currently, pursuing a doctoral degree in computer science with specialization in brain computer interface.} 
+    \vspace{-5pt}
+    \item{Possess a significant knowledge of Machine Learning Techniques.} 
+    \vspace{-5pt}
+    \item{In depth knowledge of Artificial Neural Network libraries, Tensorflow, Scikit-Learn, Numpy, Pandas, Jupyter and Keras.} 
+    \vspace{-5pt}
+    \item{Technical knowledge of Apache spark, Apache Storm and Hadoop File System using big data.} 
+    \vspace{-5pt}
+    \item{All round technical knowledge and experience with web development, Object Oriented Programming,
+    Python and Fortran.} 
+        
+    %\vspace{-5pt}
+    
+
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Colorado State University}{Fort Collins, CO}
+      {PhD Student}{Expected August 2022}
+    \resumeSubheading
+      {UniversityTeknology PETRONAS}{Ipoh, Malaysia}
+      {Master of Science Information Technology}{Feb 2015}
+    \resumeSubheading
+      {Mehran University of Engineering and Technology}{Jamshoro, Pakistan}
+      {Bachelor of Software Engineering}{Dec 2011}      
+      
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Department of Computer Science, CSU} {Fort Collins, USA}
+      {PhD student}{August 2018 - Present}
+      \vspace{2pt}
+      \resumeItemListStart
+      {Work on Brain Computer Interface (BCI) using Tripolar Concentric Ring Electrode (TCRE)
+        Electroencephalogram (EEG).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Department of Computer Science, IBA University}{Sukkur, Pakistan}
+      {Assistant Professor}{April 2018 - Present}
+      \vspace{2pt}
+      \resumeItemListStart
+      {Currently on sabbatical leave to complete PhD degree}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Department of Computer Science, IBA University}{Sukkur, Pakistan}
+      {Lecturer}{October 2015 - April 2018}
+      \resumeItemListStart
+      {Teaching and research work in Artificial Intelligence}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Department of Computer Information and Sciences, UTP}{Ipoh, Malaysia}
+      {Graduate Research Assistant}{January 2013 - February 2015}
+      \vspace{2pt}
+      \resumeItemListStart
+      {Involved in Enhanced Oil Recovery (EOR) project using Artificial Neural Network (ANN) and Data Mining (DM) Techniques.} \\
+      Project: "Implementation of Artificial Neural Network for Multiphase Flow Simulation."
+      
+      \resumeItemListEnd     
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+%-----------PROJECTS-----------------
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+    \item \textbf{Current PhD Title:}
+     {Brain computer Interface using Tripolar Concentric Ring Electrode (TCRE) EEG.} \vspace{-5pt}
+    \item
+    {Predicting Pediatric Bone Age from X-rays Using Convolutional Neural Network.} \vspace{-5pt}
+    \item
+    {Hyperlink-Induced Topic Search (HITS) over Wikipedia Articles using Apache Spark.} \vspace{-5pt}
+    \item
+    {Detecting the Most Popular Topics from Live Twitter Message Streams using the Lossy Counting Algorithm with Apache Storm.} 
+
+  \resumeSubHeadingListEnd
+  
+%-----------Achievements----------------
+\shorterSection{Achievements}
+  \resumeSubHeadingListStart
+    \item
+      {PhD Scholarship 2018 - 2022, Fulbright - U.S Department of State}
+      \vspace{-5pt}
+    \item
+      {2010 Global UGRAD Exchange Program in Pakistan, Fulbright Scholarship USA}
+       
+  
+  
+
+%-----------Publications-----------------
+\shorterSection{Publication}
+  \resumeSubHeadingListStart
+  \small
+    \item{\textbf{Journal Paper - Paras Q. Memon}, Suet-Peng Yong, William Pao, "Dynamic Modelling of Surrogate Reservoir Model", JURNAL TEKNOLOGI: ADVANCE COMPUTATIONAL INTELLIGENCE WITH BIG DATA, publisher UTM Press, indexed in SCOPUS,.}
+    \vspace{0pt}
+    \item{\textbf{Paras Q. Memon}, Suet-Peng Yong, William Pao, "Surrogate Reservoir Model for Average Reservoir Pressure", IEEE Technically Sponsored SAI Intelligence System Conference 2016, September/2016, London, UK.}
+    \vspace{0pt}
+    \item{\textbf{Paras Q. Memon}, Suet-Peng Yong, William Pao, "Dynamic Surrogate Reservoir Model with Well Constraints", The 3rd International Conference on Computer and Information Sciences, Ausgust/2016, Malaysia.}
+    \vspace{0pt}
+    \item{Book Chapter - Pau J. Sean, William Pao, Suet-­‐‑Peng Yong and Paras Q. Memon, "Evaluation of Relative Permeability Models in CO2/Brine System Using Mixed and Hybrid Finite Element Method," International Meeting on Advances in Thermofluids (IMAT), Kuala Lumpur, 2014.}
+    \vspace{0pt}
+    \item{\textbf{Book Chapter - Paras Q. Memon}, Suet-­‐‑Peng Yong, William Pao and Pau J. Sean, "Dynamic Well Bottom-Hole Flowing Pressure Prediction based on Radial Basis Neural Network." Springer Book Series-­‐‑ Studies in Computational Intelligence, Indexed by BLP, Ulrichs, SCOPUS, MathSciNet, Current Mathematical Publications, Zentralblatt Math: MetaPress and Springerlink.}
+    \vspace{0pt}
+    \item{\textbf{Paras Q. Memon}, Suet-Peng Yong, William Pao and Pau J. Sean, "Surrogate Reservoir Modeling - Prediction of Bottom-Hole Flowing Pressure using Radial Basis Neural Network." Science and Information Conference 2014, August/2014, , London, UK.}
+    \vspace{0pt}
+    \item{Journal Paper - Pau J. Sean, William Pao, Suet-­‐‑Peng Yong and Paras Q. Memon, "Effects of Capillary Pressure on Multiphase Flow During CO2 Injection in Saline Aquifer." The 4th International Conference on Production, Energy and Reliability, June/2014, Malaysia.}
+    \vspace{0pt}
+    \item{\textbf{Paras Q. Memon}, Suet-Peng Yong, William Pao and Pau J. Sean, "Predicting Bottom Hole Flowing Pressure Using Artificial Neural Network." The 2nd Internal Conference on Computer and Information and Sciences, June/2014, Malaysia}
+    \vspace{0pt}
+    \item{\textbf{Paras Q. Memon}, Suet-Peng Yong, William Pao and Pau J. Sean, "A Preliminary Study on Well-Based Surrogate Reservoir Model." 2013 IEEE Student Conference on Research & Development (SCOReD), December/2013, Malaysia
+}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+
+
+\end{document}
